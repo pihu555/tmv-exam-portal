@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.contact {
+  height: 115vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/tmv.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact div {
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid white;
+  /* width: 30%; */
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}

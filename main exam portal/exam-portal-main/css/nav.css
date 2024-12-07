@@ -1,0 +1,8 @@
+.navbar-brand img {
+    width: 8rem;
+    object-fit: contain;
+}
+
+.navbar-brand p {
+    font-family: sans-serif;
+}
